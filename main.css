@@ -5,6 +5,8 @@
 div {
   Height: 6000px;
   Width: 200px;
+  Float: Left;
+  Padding: 5px;
   
 p {
   Background-color: White;
