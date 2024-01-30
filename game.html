@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <!--I had alot of trouble with this code so i did use many different online tutorials and alot of help from W3 Schools -->
 <html>
 <head>
   <title>The Snake 3.1</title> <!--title for game -->
@@ -39,7 +39,7 @@ var snake = {
   dx: grid,
   dy: 0,
 
-  // keep track of all grids the snake body occupies
+  // keep track of all grids the snake body occupies 
   cells: [],
 
   // length of the snake. grows when eating an apple
@@ -60,7 +60,7 @@ function getRandomInt(min, max) {
 function loop() {
   requestAnimationFrame(loop);
 
-  // slow game loop to 15 fps instead of 60 (60/15 = 4)
+  // slow game loop to 15 fps instead of 60 (45/20 = 4)
   if (++count < 4) {
     return;
   }
@@ -116,33 +116,27 @@ function loop() {
       apple.y = getRandomInt(0, 25) * grid;
     }
 
-    // check collision with all cells after this one (modified bubble sort)
+    // check collision with all cells after this one (modified bubble sort) <!--codes for snake movements-->
     for (var i = index + 1; i < snake.cells.length; i++) {
 
       // snake occupies same space as a body part. reset game
       if (cell.x === snake.cells[i].x && cell.y === snake.cells[i].y) {
-        snake.x = 160;
-        snake.y = 160;
+        snake.x = 130;
+        snake.y = 130;
         snake.cells = [];
-        snake.maxCells = 4;
+        snake.maxCells = 5;
         snake.dx = grid;
         snake.dy = 0;
 
-        apple.x = getRandomInt(0, 25) * grid;
-        apple.y = getRandomInt(0, 25) * grid;
+        apple.x = getRandomInt(0, 15) * grid;
+        apple.y = getRandomInt(0, 15) * grid;
       }
     }
   });
 }
-
-// listen to keyboard events to move the snake
+//movement essentials
 document.addEventListener('keydown', function(e) {
-  // prevent snake from backtracking on itself by checking that it's
-  // not already moving on the same axis (pressing left while moving
-  // left won't do anything, and pressing right while moving left
-  // shouldn't let you collide with your own body)
 
-  // left arrow key
   if (e.which === 37 && snake.dx === 0) {
     snake.dx = -grid;
     snake.dy = 0;
