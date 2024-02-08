@@ -1,4 +1,16 @@
+<html>
+ <head>
+ </head>
+ <body>
+   <button onclick = "Function()">Right Here</button>
 
+<script>
+function Function() {
+    setTimeout(setAlert, 2000);
+}
+function setAlert() {
+  alert("Assignment 3.1");
+}
 function play() {
 var die1 =Math.ceil(Math.random()*6);
 
