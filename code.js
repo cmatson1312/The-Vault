@@ -2,7 +2,7 @@
  <head>
  </head>
  <body>
-   <button onclick = "Function()">Right Here</button> 
+   <button onclick = "Function()">Start Here</button> 
 
 <script>
 function Function() {
@@ -41,6 +41,7 @@ document.write("<br/>")
 
 }
 
+<button onclick = "Function()">Exit</button> 
 
 and in the html
 
