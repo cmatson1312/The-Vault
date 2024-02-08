@@ -3,7 +3,7 @@
  </head>
  <body>
    <button onclick = "Function()">Right Here</button> 
-//start button
+
 <script>
 function Function() {
     setTimeout(setAlert, 2000); //Timer Duration
