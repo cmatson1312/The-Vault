@@ -9,12 +9,24 @@
   <body>
 <script>
       const button = document.createElement('Start')
-
+  
       button.innerText = 'Start'
     button.id = 'Start Button'
-      button.addEventListener('Start', () => {
+      button.addEventListener('Stop', () => {
   
         alert('START!')
+      })
+      document.body.appendChild(button)
+    </script>
+    
+    <script>
+      const button = document.createElement('Stop')
+  
+      button.innerText = 'Start'
+    button.id = 'Stop Button'
+      button.addEventListener('Stop', () => {
+  
+        alert('STOPPED')
       })
       document.body.appendChild(button)
     </script>
