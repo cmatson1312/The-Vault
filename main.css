@@ -37,5 +37,37 @@ h1 {
   <a href="/media/cc0-audio/Wilheim.mp3"> Download audio </a>
 </figure>
 
+{
+// main function
+{
+// of the original str
+    String rev = "";
 
+// Initializing a new boolean variable for the
+// answer
+    boolean ans = false;
+
+for (int i = str.length() - 1; i >= 0; i--) {
+rev = rev + str.charAt(i);
+}
+
+// Checking if both the strings are equal
+    if (str.equals(rev)) {
+    ans = true;
+}
+        return ans;
+    }
+    public static void main(String[] args)
+    {
+        // Input string
+        String str = "UAT";
+
+    alert(img src="Mogged.jpeg") //when clicked the meme image appears
+      })
+        
+// Convert the string to lowercase
+        str = str.toLowerCase();
+        boolean A = isPalindrome(str);
+        System.out.println(A);
+ }
 <html>
