@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html> 
+<head>
+
+<title>Assignment 13.1</title>
+
+<h1> 3 Collumns </h1>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>3 ways to make money</title>
+<style>	
+	.column {
+	  flex: 33%;
+	  height: 200px;
+	  padding: 10px;
+	  margin: 5px;
+	  background-color: #Black;
+	  text-align: center;
+	}
+	.container {
+	   display: flex;
+	}	
+</style>
+</head>  
+<body>
+    <h2> 3-column grid layout</h2>
+	<div class="container">
+	   <div class="column">
+	     <h2> Work </h2>
+		 <p> Working a well paying job is the most common way people make money </p>
+	   </div>
+	   <div class="column">
+	     <h2> Selling </h2>
+		 <p> Do you have possesions? if yes then you can give thos items away in exchange for money</p>
+	   </div>
+	   <div class="column">
+	     <h2> Theft </h2>
+		 <p> This method is highly illegal and is not advised what so ever,but by taking money from other you, yourself will gain money...and a prison sentance.</p>
+	   </div>
+	</div>
+</body>
+
+</html>
+
+<style>
+
+Img {
+  Margin-right: 200px;
+}
+div {
+  Height: 6000px;
+  Width: 200px;
+  Float: Left;
+  Padding: 5px;
+  Line-Height: 30px;
+  Margin-right: 200px;
+}
+p {
+  Background-color: Garnet Red;
+  Text-color: White;
+  text-align: center;
+}
+</style>
+h1 {
+  text-align: Center;
+}
+</head>
+<body>
+
+<html>
