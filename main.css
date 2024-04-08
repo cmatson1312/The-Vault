@@ -25,6 +25,12 @@ h1 {
 </head>
 <body>
 
+<figure>
+  <figcaption>The Cool Sound:</figcaption>
+  <audio controls src="/media/cc0-audio/Wilheim.mp3"></audio>
+  <a href="/media/cc0-audio/Wilheim.mp3"> Download audio </a>
+</figure>
+
 <title>Assignment 1.3 CSS</title>
 <h1>Using CSS</h1>
 
