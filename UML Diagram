@@ -1,0 +1,28 @@
+ 
+              Breacher                
+- name: Breacher                      
+- health: 50                          
+- attackPower: 80                     
+
++ Breacher(name: String)              
++ getName(): String                   
++ setName(name: String): Breacher     
++ getHealth(): 15HP                    
++ setHealth(health: int): void        
++ getAttackPower(): int               
++ setAttackPower(attackPower: int):30%
++ attack(target:Enemy):100%     
+
+              Infiltrator               
+- name: Infiltrator                       
+- health: 70                          
+- attackPower: 45                     
+
++ Infiltrator (name: String)              
++ getName(): String                   
++ setName(name: String):Infiltrator      
++ getHealth():35HP                    
++ setHealth(health: int): void        
++ getAttackPower(): int               
++ setAttackPower(attackPower: int):10%
++ attack(target:Enemy): 100%     
